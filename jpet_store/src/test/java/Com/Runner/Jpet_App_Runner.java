@@ -16,7 +16,6 @@ import cucumber.api.junit.Cucumber;
 		glue = {"Com.Stepdefinition"},
 		monochrome = true	
 		)
-
 public class Jpet_App_Runner {
 	@AfterClass
 	  public static void extendReport()

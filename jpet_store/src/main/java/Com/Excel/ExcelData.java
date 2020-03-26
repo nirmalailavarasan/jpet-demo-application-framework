@@ -15,7 +15,7 @@ public class ExcelData {
 	// to get user name from excel sheet
 	public  String excel_username(int i) throws IOException 
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx\\"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -28,7 +28,7 @@ public class ExcelData {
 	// to get password from excel sheet
 	public  String excel_password(int i) throws IOException 
 	{ 
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -41,7 +41,7 @@ public class ExcelData {
 	// to get first name from excel sheet
 	public  String Firstname(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -53,7 +53,7 @@ public class ExcelData {
 	// to get last name from excel sheet
 	public  String Lastname(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -65,7 +65,7 @@ public class ExcelData {
 	// to get email from excel sheet
 	public  String Email(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -77,7 +77,7 @@ public class ExcelData {
 	// to get phone number from excel sheet
 	public  String Phone(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -89,7 +89,7 @@ public class ExcelData {
 	// to get address 1 from excel sheet
 	public  String Address1(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -101,7 +101,7 @@ public class ExcelData {
 	// to get address 2 from excel sheet
 	public  String Address2(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -113,7 +113,7 @@ public class ExcelData {
 	// to get city from excel sheet
 	public  String City(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -125,7 +125,7 @@ public class ExcelData {
 	// to get state from excel sheet
 	public  String State(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -137,7 +137,7 @@ public class ExcelData {
 	// to get zipcode from excel sheet
 	public  String Zip(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);
@@ -149,7 +149,7 @@ public class ExcelData {
 	// to get country from excel sheet
 	public  String Country(int i) throws IOException
 	{	  
-		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/nima4.xlsx"));
+		FileInputStream fil = new FileInputStream(new File("src/test/resources/Testdata/test data.xlsx"));
 		XSSFWorkbook workbook = new XSSFWorkbook(fil);
 		XSSFSheet sheet=workbook.getSheet("Sheet1");
 		XSSFRow row =sheet.getRow(i);

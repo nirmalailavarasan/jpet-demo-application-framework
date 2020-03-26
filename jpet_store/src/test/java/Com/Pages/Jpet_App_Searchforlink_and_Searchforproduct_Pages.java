@@ -26,17 +26,17 @@ public class Jpet_App_Searchforlink_and_Searchforproduct_Pages {
 			try {
 				//To launch firefox Browser
 		if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver","C:\\Users\\Lenovo\\Desktop\\FrameWorkDemo-master\\jpet_store\\src\\test\\resources\\Driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","src/test/resources/Driver/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 				// To launch chrome Browser
 		else if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\Lenovo\\Desktop\\FrameWorkDemo-master\\jpet_store\\src\\test\\resources\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","src/test/resources/Driver/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 				// To launch InternetExplorer
 		else if (browser.equalsIgnoreCase("Internet Explore")) {
-				System.setProperty("webdriver.ie.driver","C:\\Users\\Lenovo\\Desktop\\FrameWorkDemo-master\\jpet_store\\src\\test\\resources\\Driver\\IEDriverServer.exe");
+				System.setProperty("webdriver.ie.driver","src/test/resources/Driver/IEDriverServer.exe");
 			driver=new InternetExplorerDriver();  
 		}
 				//to maximize the window
