@@ -1,5 +1,7 @@
 package Com.Stepdefinition;
 
+import java.io.IOException;
+
 import Com.Pages.Jpet_App_Printproducttable_Pages;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -17,8 +19,9 @@ public class Jpet_App_Printproducttable_Steps {
 		product.selectcategorytoprint();
 	}
 	@Then ("^To check for print table$")
-	public void printproducttable() {	
+	public void printproducttable() throws IOException, InterruptedException {	
 		product.printproducttable();
+		product.takescreenshot2("src/test/resources/screenshot/products.png");
 	}
 	@And("^close browser for print$")
 	public void close() {

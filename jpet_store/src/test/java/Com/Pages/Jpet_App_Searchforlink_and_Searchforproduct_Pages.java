@@ -65,7 +65,7 @@ public class Jpet_App_Searchforlink_and_Searchforproduct_Pages {
 		// To search for products
 			driver.findElement(By.name("searchProducts")).click();
 	}
-		public void takescreenshot6(String path) throws IOException, InterruptedException 
+		public void takescreenshot3(String path) throws IOException, InterruptedException 
 		{
 			// To take screenshot for search function
 			TakesScreenshot image=  ((TakesScreenshot)driver);

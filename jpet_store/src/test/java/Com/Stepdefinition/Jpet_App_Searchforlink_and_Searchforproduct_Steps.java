@@ -37,7 +37,7 @@ public class Jpet_App_Searchforlink_and_Searchforproduct_Steps {
 	public void search() throws IOException, InterruptedException {
 		
 		search.search();
-		search.takescreenshot6("src/test/resources/screenshot/search.png");
+		search.takescreenshot3("src/test/resources/screenshot/search.png");
 	}
 	@And("^close browser for search$")
 	public void close() {
